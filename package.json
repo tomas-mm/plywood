@@ -22,11 +22,15 @@
     "definition": "build/plywood.d.ts"
   },
   "scripts": {
+    "compile": "./compile",
+    "prepare": "./compile",
     "prepublish": "./prepublish"
   },
   "tonicExampleFilename": "docs/examples/tonic.js",
   "dependencies": {
+    "@types/node": "^10.12.7",
     "immutable-class": "0.4.5",
+    "lynx": "0.2.0",
     "q": "1.4.1"
   },
   "peerDependencies": {
@@ -38,6 +42,7 @@
     "chronoshift": "0.4.5",
     "istanbul": "0.4.4",
     "mocha": "2.5.3",
+    "sinon": "6.3.5",
     "pegjs": "0.9.0",
     "plywood-druid-requester": "1.4.4",
     "plywood-mysql-requester": "1.2.5",
